@@ -30,6 +30,5 @@ int main() {
         printf("Matrices are equal.\n");
     else
         printf("Matrices are not equal.\n");
-
     return 0;
 }
