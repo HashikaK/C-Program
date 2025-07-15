@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 // Function to calculate factorial of a digit
 int factorial(int n) {
     int fact = 1;
@@ -20,14 +21,11 @@ int isStrong(int num) {
 }
 int main() {
     int number;
-
     printf("Enter a number: ");
     scanf("%d", &number);
-
     if(isStrong(number))
         printf("%d is a Strong Number.\n", number);
     else
         printf("%d is not a Strong Number.\n", number);
-
     return 0;
 }

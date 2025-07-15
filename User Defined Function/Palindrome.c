@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void checkPalindrome(int a) {
     int original = a;
     int rev = 0;
@@ -13,7 +14,6 @@ void checkPalindrome(int a) {
     else
         printf("%d is not a Palindrome.\n", original);
 }
-
 int main() {
     int number;
     printf("Enter a number: ");
