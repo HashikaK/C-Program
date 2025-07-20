@@ -7,14 +7,13 @@ struct dnode {
     struct dnode *prev;
     struct dnode *next;
 };
-
 typedef struct dnode node;
 
 int main() {
     node *head = NULL, *tail = NULL;
     node *newnode, *temp;
-    int n;
 
+    int n;
     printf("Enter number of elements: ");
     scanf("%d", &n);
 
@@ -55,8 +54,6 @@ int main() {
         printf("%d ", temp->data);
         temp = temp->prev;
     }
-
     printf("\n");
-
     return 0;
 }
