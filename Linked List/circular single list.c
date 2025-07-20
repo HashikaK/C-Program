@@ -50,6 +50,5 @@ int main() {
         } while(temp != head);
         printf("\n");
     }
-
     return 0;
 }
