@@ -11,7 +11,6 @@ void push(int value) {
         printf("%d pushed to stack\n", value);
     }
 }
-
 void pop() {
     if (top == -1) {
         printf("Stack Underflow (Stack is empty)\n");
@@ -21,13 +20,11 @@ void pop() {
         printf("%d popped from stack\n", popped_value);
     }
 }
-
 int main() {
     push(10);
     push(20);
     push(30);
     pop(); // Should remove 30
     pop(); // Should remove 20
-
     return 0;
 }
