@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 struct lnode{
     int data;
     struct lnode* next;
@@ -10,7 +9,6 @@ typedef struct queue{
     node* front;
     node* rear;
 }queue;
-
 queue* createqueue(){
     struct queue* p=(queue*)malloc(sizeof(queue));
     p->front=NULL;
@@ -64,6 +62,5 @@ int main() {
     dequeue(q2);
     peek(q1);
     peek(q2);
-    return 0;
-    
+    return 0;    
 }
