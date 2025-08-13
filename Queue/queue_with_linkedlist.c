@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define n 30
+
 struct lnode{
     int data;
     struct lnode* next;

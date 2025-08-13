@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define n 30
+
 struct queue{
     int arr[n],front,rear;
 };
